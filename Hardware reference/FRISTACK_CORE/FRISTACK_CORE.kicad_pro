@@ -59,10 +59,11 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|131930000|106930000|eefc80a0-6740-4a86-aa1e-80d6612ee73c|3e40df80-caad-4a39-be0e-995be9d8d924",
-        "hole_clearance|131930000|106930000|eefc80a0-6740-4a86-aa1e-80d6612ee73c|954da576-a10f-43bf-8cf9-c3a752674763",
-        "hole_clearance|138030000|106930000|4623adca-b390-466a-8d21-b4ef5c8ee100|398b5460-d9fa-41d2-906b-f9ba93953bad",
-        "hole_clearance|138030000|106930000|4623adca-b390-466a-8d21-b4ef5c8ee100|6c67c0d0-1950-4fe6-8458-37aef56c4fd2"
+        "copper_edge_clearance|134100000|49850000|6a4ed0fa-cf41-48fb-9672-ec099b657bd4|f6c7e67f-41ae-46f1-ae4b-8060f5b3b42a",
+        "hole_clearance|139330000|55930000|909baf09-c8c1-4d74-b348-d2bbbe21d4ed|756e9588-0234-4b43-926c-ea594dcebf56",
+        "hole_clearance|139330000|55930000|97404e6e-82b1-4301-a655-8018cbd00f88|756e9588-0234-4b43-926c-ea594dcebf56",
+        "hole_clearance|145430000|55930000|9b538e81-4378-4c2f-a313-ae903f80d57c|7a372737-ec07-486c-97f1-b4bb98dbd61c",
+        "hole_clearance|145430000|55930000|fcd64f46-6638-4ff2-87e1-34543c63a405|7a372737-ec07-486c-97f1-b4bb98dbd61c"
       ],
       "meta": {
         "version": 2
@@ -184,7 +185,8 @@
       ],
       "track_widths": [
         0.0,
-        0.3
+        0.3,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -661,6 +663,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "../../Desktop/projekt/",
     "spice_current_sheet_as_root": false,
