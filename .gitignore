@@ -1,9 +1,57 @@
-/Hardware reference/FRISTACK_CORE/FRISTACK_CORE-backups
-/Hardware reference/FRISTACK_SENSOR_NODE/FRISTACK_SENSOR_NODE/FRISTACK_SENSOR_NODE-backups
-Hardware reference/FRISTACK_CORE/FRISTACK_CORE_V_0.1.kicad_pcb
-Hardware reference/FRISTACK_CORE/FRISTACK_CORE_V_0.1.kicad_pro
-Hardware reference/FRISTACK_CORE/FriStack-core-production.zip
-Hardware reference/FRISTACK_CORE/FRISTACK_CORE_V_0.1.kicad_sch
-Hardware reference/FRISTACK_CORE/production/backups/FRISTACK_CORE_2025-03-31_14-47-38.zip
-Hardware reference/FRISTACK_CORE/production/backups/FRISTACK_CORE_2025-03-31_14-52-56.zip
-Hardware reference/FRISTACK_CORE/User_imports.pretty/jano.kicad_mod
+
+!*.kicad_pro     
+!*.kicad_sch      
+!*.kicad_pcb      
+!*.lib           
+!*.kicad_sym      
+!*.kicad_mod      
+!*.net           
+
+*.bak
+*.tmp
+*~
+
+*.dcm
+*.html
+*.pdf
+*.ps
+*.svg
+*.png
+*.txt
+*.csv
+*.xml
+
+*.bom
+*.gbr
+*.gbo
+*.gbs
+*.gtl
+*.gts
+*.gbl
+*.gko
+*.drl
+*.zip
+
+*.cache
+*.kicad_prl         
+*.sch-bak
+*.pcb-bak
+*.tmp.*
+*.bak.*
+
+*.wrl
+*.stp
+*.step
+*.iges
+*.3dshapes/
+
+*.net
+*.spice
+*.ibis
+*.spectrum
+
+fp-info-cache
+fp-info-cache.json
+*.autosave.kicad_pcb
+*.autosave.kicad_sch
+

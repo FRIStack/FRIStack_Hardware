@@ -2660,7 +2660,7 @@
 		(uuid "217393f4-4465-4f30-8b9a-55d4e9ca9e9f")
 		(at 130.15 86.888 -90)
 		(property "Reference" "RST1"
-			(at -2.538 -3.45 180)
+			(at 2.562 -3.4 180)
 			(layer "F.SilkS")
 			(uuid "81871647-168a-4915-b69c-47d0932f3d97")
 			(effects
@@ -4517,7 +4517,7 @@
 		(uuid "316ae038-602c-4bdd-a1e5-9d5f89d70d81")
 		(at 130.1 108.125 -90)
 		(property "Reference" "Boot1"
-			(at -2 -3.05 90)
+			(at 2.475 -3.6 0)
 			(layer "F.SilkS")
 			(uuid "fb91613b-0087-4566-8600-d8dd5ee85a76")
 			(effects
