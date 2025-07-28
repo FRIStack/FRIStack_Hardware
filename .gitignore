@@ -10,6 +10,7 @@
 *.bak
 *.tmp
 *~
+*.lck
 
 *.dcm
 *.html
@@ -55,3 +56,5 @@ fp-info-cache.json
 *.autosave.kicad_pcb
 *.autosave.kicad_sch
 
+*.ipc
+*.json

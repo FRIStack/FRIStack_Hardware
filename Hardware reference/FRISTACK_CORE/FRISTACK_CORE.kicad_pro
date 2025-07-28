@@ -59,7 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|144225000|72775000|ae64375d-9ff1-4cd8-b5e9-da97c8dceca4|6188872a-607a-4a83-a67c-eaad1e9c5084",
         "hole_clearance|158950000|78755000|2115f26b-7a63-4369-b1dc-ecf9df193c89|86216153-af01-4a7d-b1b4-00ddf6923a29",
         "hole_clearance|158950000|78755000|2115f26b-7a63-4369-b1dc-ecf9df193c89|ea3ca493-c46e-4816-859f-244c4aeb92d4",
         "hole_clearance|165050000|78755000|a5bb9f32-ef1d-4d91-9387-97d8699b4c5c|430d901c-cc2e-49ee-89eb-9d751af1985a",
