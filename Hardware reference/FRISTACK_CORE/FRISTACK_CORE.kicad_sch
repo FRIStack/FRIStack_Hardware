@@ -5946,16 +5946,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 222.25) (xy 382.27 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06283836-0746-409a-89c0-db3cf9120acd")
-	)
-	(wire
-		(pts
 			(xy 45.72 38.1) (xy 58.42 38.1)
 		)
 		(stroke
@@ -5973,6 +5963,16 @@
 			(type default)
 		)
 		(uuid "080e8116-130a-49af-bcaf-5a20e584f7b0")
+	)
+	(wire
+		(pts
+			(xy 381 224.79) (xy 382.27 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095155b7-7c99-4c9b-abfd-ae773081b988")
 	)
 	(wire
 		(pts
@@ -6446,7 +6446,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 215.9) (xy 62.23 218.44)
+			(xy 43.18 93.98) (xy 43.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de083df-4516-40c7-8df2-75ef5252cdbc")
+	)
+	(wire
+		(pts
+			(xy 62.23 215.9) (xy 62.23 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6866,6 +6876,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 93.98) (xy 43.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f5175a-b33d-427a-a63b-540decb1ff09")
+	)
+	(wire
+		(pts
 			(xy 373.38 229.87) (xy 373.38 231.14)
 		)
 		(stroke
@@ -7056,16 +7076,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 218.44) (xy 378.46 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63360eda-390e-46f3-9bda-18227fcba008")
-	)
-	(wire
-		(pts
 			(xy 377.19 26.67) (xy 383.54 26.67)
 		)
 		(stroke
@@ -7073,6 +7083,16 @@
 			(type default)
 		)
 		(uuid "64166236-afda-43e1-aca7-e5961b873e74")
+	)
+	(wire
+		(pts
+			(xy 31.75 93.98) (xy 33.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643b4a49-35fd-4afe-8a8f-bb3262e638c8")
 	)
 	(wire
 		(pts
@@ -7243,16 +7263,6 @@
 			(type default)
 		)
 		(uuid "77129796-6e1d-43cf-8be2-fdda2a3c4db1")
-	)
-	(wire
-		(pts
-			(xy 378.46 224.79) (xy 382.27 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777ead2a-9ab1-44c7-983d-796d11491375")
 	)
 	(wire
 		(pts
@@ -7856,6 +7866,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 121.92) (xy 377.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4b1015-2030-4607-a82e-fbfcaeffa9bf")
+	)
+	(wire
+		(pts
 			(xy 217.17 222.25) (xy 217.17 223.52)
 		)
 		(stroke
@@ -8096,6 +8116,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 238.76) (xy 381 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2590a25-bbd9-43f5-88f9-70e2a9191db5")
+	)
+	(wire
+		(pts
 			(xy 201.93 127) (xy 201.93 130.81)
 		)
 		(stroke
@@ -8266,6 +8296,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 222.25) (xy 378.46 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2999111-d05a-4ab2-9510-610fee0d4363")
+	)
+	(wire
+		(pts
 			(xy 224.79 93.98) (xy 203.2 93.98)
 		)
 		(stroke
@@ -8363,6 +8403,16 @@
 			(type default)
 		)
 		(uuid "df068d34-6014-4033-9db5-047b273cf98e")
+	)
+	(wire
+		(pts
+			(xy 31.75 96.52) (xy 36.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df49c13c-4ab3-49c3-a9f1-752e997330ca")
 	)
 	(wire
 		(pts
@@ -8476,6 +8526,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 119.38) (xy 377.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e747e240-93bf-4881-9938-de3b21e09f34")
+	)
+	(wire
+		(pts
 			(xy 58.42 54.61) (xy 82.55 54.61)
 		)
 		(stroke
@@ -8483,6 +8543,16 @@
 			(type default)
 		)
 		(uuid "e81cf521-5000-431f-b38c-02c503bc2de7")
+	)
+	(wire
+		(pts
+			(xy 36.83 96.52) (xy 36.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99b2f37-fa97-466b-9f65-545a5a2344a4")
 	)
 	(wire
 		(pts
@@ -8523,16 +8593,6 @@
 			(type default)
 		)
 		(uuid "ecc14953-ffd4-4e0d-91df-ad4dbbeaee3d")
-	)
-	(wire
-		(pts
-			(xy 381 238.76) (xy 381 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee2da8ce-cfe0-45c9-b55a-95f897b36e0e")
 	)
 	(wire
 		(pts
@@ -8653,6 +8713,16 @@
 			(type default)
 		)
 		(uuid "fd1440d2-a173-4b1a-a72d-0caa822620d7")
+	)
+	(wire
+		(pts
+			(xy 378.46 222.25) (xy 378.46 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2023f5-b7fc-4527-a535-57ef77d5b28b")
 	)
 	(global_label "BOOT"
 		(shape input)
@@ -8887,6 +8957,28 @@
 		(uuid "1c45ac0a-e9dc-4382-a151-504d5d7cc1a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.0591 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_D"
+		(shape bidirectional)
+		(at 372.11 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f6f997e-7d22-4926-8988-6226f043506f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 362.0868 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,6 +9639,28 @@
 		(uuid "8e265f6f-4cf8-4504-8aa1-35cd68923723")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.9568 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_R"
+		(shape bidirectional)
+		(at 372.11 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90899544-7d80-4908-9250-2c972433b1d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 362.0868 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,7 +10577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 176.2252 35.56 0)
 			(effects
 				(font
@@ -10793,6 +10907,74 @@
 			(project "FRISTACK_CORE"
 				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 26.67 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "060e3ddc-85c7-4450-acf0-10ddf03d8fdc")
+		(property "Reference" "J3"
+			(at 27.305 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT"
+			(at 27.305 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "966a1e72-bcee-4de8-813d-93884fe3290e")
+		)
+		(pin "2"
+			(uuid "75307de8-1cea-4c5a-88b4-f224cf59c602")
+		)
+		(instances
+			(project "FRISTACK_CORE"
+				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13329,7 +13511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 247.3452 38.1 0)
 			(effects
 				(font
@@ -15124,7 +15306,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 218.44 0)
+		(at 62.23 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15133,7 +15315,7 @@
 		(fields_autoplaced yes)
 		(uuid "770854f6-296a-4bbf-8793-b487e43ab2c1")
 		(property "Reference" "#PWR046"
-			(at 62.23 224.79 0)
+			(at 62.23 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15142,7 +15324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 223.52 0)
+			(at 62.23 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15150,7 +15332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 218.44 0)
+			(at 62.23 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15159,7 +15341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 218.44 0)
+			(at 62.23 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15168,7 +15350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 218.44 0)
+			(at 62.23 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15406,7 +15588,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1M"
 			(at 62.738 140.462 0)
 			(effects
 				(font
@@ -16538,6 +16720,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 36.83 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ab761c9-ed9f-4830-ab48-af97c7d03423")
+		(property "Reference" "#PWR033"
+			(at 36.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "925d0817-d2d1-46c1-a1ae-bd39cd01ba43")
+		)
+		(instances
+			(project "FRISTACK_CORE"
+				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 175.26 195.58 0)
 		(unit 1)
@@ -16876,6 +17124,76 @@
 			(project "FRISTACK_CORE"
 				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 382.27 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2d5db15-8418-4ca9-ba9a-a64abf4b48c5")
+		(property "Reference" "J2"
+			(at 383.54 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JTAG_PIN_HEADER"
+			(at 383.54 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 382.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 382.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbd47410-be06-426d-b70a-cb43c98b0be6")
+		)
+		(pin "2"
+			(uuid "97a0538d-aee2-4a3f-9e14-c3ceea92aa4d")
+		)
+		(instances
+			(project "FRISTACK_CORE"
+				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -18437,6 +18755,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 36.83 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7cdc369-aa00-438a-8e72-b23f26cb1eba")
+		(property "Reference" "D2"
+			(at 36.5125 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 36.5125 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 36.83 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad5ff19f-de04-407b-b872-364bee40629f")
+		)
+		(pin "2"
+			(uuid "603bf3a1-28ee-42b3-b8c4-79c87c40d27d")
+		)
+		(instances
+			(project "FRISTACK_CORE"
+				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 45.72 265.43 0)
 		(unit 1)
@@ -18632,6 +19018,72 @@
 			(project "FRISTACK_CORE"
 				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd63e60f-54be-4772-a0c7-26f4eeb5d331")
+		(property "Reference" "#PWR032"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a5e2ac7-edef-4f8a-85a7-555037752ae7")
+		)
+		(instances
+			(project "FRISTACK_CORE"
+				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19714,7 +20166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "User imports:INDC2016X120N"
 			(at 234.95 25.4 0)
 			(effects
 				(font
