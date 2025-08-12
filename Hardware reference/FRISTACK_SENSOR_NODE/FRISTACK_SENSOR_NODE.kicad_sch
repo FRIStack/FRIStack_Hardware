@@ -3682,6 +3682,10 @@
 		(uuid "f578a22e-20bc-4e85-bdd0-67966bd997f1")
 	)
 	(no_connect
+		(at 248.92 161.29)
+		(uuid "896dfb8a-18fd-46b5-b7d1-003d71f85e7d")
+	)
+	(no_connect
 		(at 179.07 134.62)
 		(uuid "d370f8fe-c88a-41fb-b0f6-07cfc88691f6")
 	)
@@ -4044,16 +4048,6 @@
 			(type default)
 		)
 		(uuid "2f9ed5a4-e5b9-473e-b9c3-49bfd6e6e7b3")
-	)
-	(wire
-		(pts
-			(xy 261.62 161.29) (xy 264.16 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fcc4afb-5018-4ad1-85af-e34773d33577")
 	)
 	(wire
 		(pts
@@ -5297,16 +5291,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 161.29) (xy 254 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5dedb6c-c329-4e46-a1d4-4259e84163ce")
-	)
-	(wire
-		(pts
 			(xy 290.83 156.21) (xy 248.92 156.21)
 		)
 		(stroke
@@ -6053,28 +6037,6 @@
 			)
 		)
 	)
-	(global_label "GPIO03"
-		(shape input)
-		(at 264.16 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0972ceb7-762f-4694-a702-51d2e7db81d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.0395 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ESP_PWR"
 		(shape input)
 		(at 214.63 104.14 90)
@@ -6383,7 +6345,7 @@
 			)
 		)
 	)
-	(global_label "GPIO03"
+	(global_label "ADC1"
 		(shape input)
 		(at 367.03 135.89 0)
 		(fields_autoplaced yes)
@@ -6395,7 +6357,7 @@
 		)
 		(uuid "513f1163-f918-4c99-a7cd-a78c2f3f0ab8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 376.9095 135.89 0)
+			(at 374.8533 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6781,7 +6743,7 @@
 	)
 	(global_label "SDA1"
 		(shape input)
-		(at 264.16 161.29 0)
+		(at 264.16 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6791,7 +6753,7 @@
 		)
 		(uuid "a6897b5d-bd4e-45a5-bf8a-ddc822ba9ff0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.9228 161.29 0)
+			(at 271.9228 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 313.3852 44.45 0)
 			(effects
 				(font
@@ -9264,73 +9226,6 @@
 			(project "FRISTACK_SENSOR_NODE"
 				(path "/93ea00fb-97ce-495e-ab13-c4af9b79c25e"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 257.81 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c245a01-8289-44ce-a253-f1ffe3fbefc0")
-		(property "Reference" "R13"
-			(at 262.382 162.814 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 257.81 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.81 159.512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 257.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4ffba689-e00a-4b3b-a614-319924558c1f")
-		)
-		(pin "1"
-			(uuid "8bee1b82-048b-4d34-8178-986e6a1e4219")
-		)
-		(instances
-			(project "FRISTACK_SENSOR_NODE"
-				(path "/93ea00fb-97ce-495e-ab13-c4af9b79c25e"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11946,7 +11841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 384.5052 46.99 0)
 			(effects
 				(font
@@ -12615,7 +12510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "User_imports:INDC2016X120N"
 			(at 372.11 34.29 0)
 			(effects
 				(font
