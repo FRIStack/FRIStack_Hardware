@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "missing_courtyard|141354784|105022509|29d998cd-7262-4ed1-a113-1c48a0ffe38c|00000000-0000-0000-0000-000000000000",
+          "footprint"
+        ],
+        [
+          "missing_courtyard|161890000|77780000|cc2171c3-34d6-4b7e-9554-49fd78406ca8|00000000-0000-0000-0000-000000000000",
+          "footprint"
+        ],
+        [
+          "missing_courtyard|161930000|113430000|6b90f5ce-31ae-4719-a944-54fa282a71dd|00000000-0000-0000-0000-000000000000",
+          "logo"
+        ],
+        [
+          "missing_courtyard|162033897|92887855|9c198878-cf24-41eb-bb1d-6e78e3a75745|00000000-0000-0000-0000-000000000000",
+          "footprint"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -138,7 +155,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -501,7 +518,7 @@
       "idf": "",
       "netlist": "",
       "plot": "D:/FriStack/fristack_iot/jclpcb/",
-      "pos_files": "D:/FriStack/fristack_iot/jlcpcb/",
+      "pos_files": "C:/Users/PC1/OneDrive - Žilinská univerzita v Žiline/Pracovná plocha/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
