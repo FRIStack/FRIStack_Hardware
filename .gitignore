@@ -58,3 +58,8 @@ fp-info-cache.json
 
 *.ipc
 *.json
+
+# KiCad autosave
+**/_autosave-*
+
+*.round-tracks-config
