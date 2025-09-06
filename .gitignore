@@ -59,7 +59,7 @@ fp-info-cache.json
 *.ipc
 *.json
 
-# KiCad autosave
-**/_autosave-*
-
 *.round-tracks-config
+**/_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
