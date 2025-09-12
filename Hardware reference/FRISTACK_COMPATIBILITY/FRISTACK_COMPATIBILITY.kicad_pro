@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,34 +48,11 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        [
-          "missing_courtyard|141354784|105022509|29d998cd-7262-4ed1-a113-1c48a0ffe38c|00000000-0000-0000-0000-000000000000",
-          "footprint"
-        ],
-        [
-          "missing_courtyard|161890000|77780000|cc2171c3-34d6-4b7e-9554-49fd78406ca8|00000000-0000-0000-0000-000000000000",
-          "footprint"
-        ],
-        [
-          "missing_courtyard|161930000|113430000|6b90f5ce-31ae-4719-a944-54fa282a71dd|00000000-0000-0000-0000-000000000000",
-          "logo"
-        ],
-        [
-          "missing_courtyard|162033897|92887855|9c198878-cf24-41eb-bb1d-6e78e3a75745|00000000-0000-0000-0000-000000000000",
-          "footprint"
-        ]
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -93,9 +70,9 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -109,13 +86,13 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "error",
+        "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "error",
+        "npth_inside_courtyard": "ignore",
         "padstack": "warning",
-        "pth_inside_courtyard": "error",
+        "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -156,7 +133,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -203,11 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.3,
-        0.4
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -234,12 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -483,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FRISTACK_IOT.kicad_pro",
+    "filename": "FRISTACK_COMPATIBILITY.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -519,8 +487,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "D:/FriStack/fristack_iot/jclpcb/",
-      "pos_files": "C:/Users/PC1/OneDrive - Žilinská univerzita v Žiline/Pracovná plocha/",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -643,7 +611,7 @@
   },
   "sheets": [
     [
-      "422747a0-88c0-408b-851d-620a17e836b0",
+      "6114f4ab-b672-478a-9bd9-d4b8e01f54d5",
       "Root"
     ]
   ],
