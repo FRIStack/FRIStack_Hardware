@@ -63,3 +63,4 @@ fp-info-cache.json
 **/_autosave-*
 *.kicad_sch-bak
 *.kicad_pcb-bak
+*_autosave-*.kicad_pro
