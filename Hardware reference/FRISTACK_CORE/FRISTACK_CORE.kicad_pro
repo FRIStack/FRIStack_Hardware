@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -60,75 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|149852500|86552500|7de09a79-bd58-4dcd-8b92-385fcebe6ea7|70034038-4059-4582-bd25-a8a3afe090f4",
+          "hole_clearance|158950000|78755000|2115f26b-7a63-4369-b1dc-ecf9df193c89|86216153-af01-4a7d-b1b4-00ddf6923a29",
           ""
         ],
         [
-          "clearance|149852500|87052500|70034038-4059-4582-bd25-a8a3afe090f4|bb95fa94-8153-4eeb-936b-2a414b2667f9",
+          "hole_clearance|158950000|78755000|2115f26b-7a63-4369-b1dc-ecf9df193c89|ea3ca493-c46e-4816-859f-244c4aeb92d4",
           ""
         ],
         [
-          "clearance|149852500|87552500|bb95fa94-8153-4eeb-936b-2a414b2667f9|42bc60ba-3025-461c-b001-8ccb72f121c5",
+          "hole_clearance|165050000|78755000|a5bb9f32-ef1d-4d91-9387-97d8699b4c5c|430d901c-cc2e-49ee-89eb-9d751af1985a",
           ""
         ],
         [
-          "clearance|149852500|88052500|42bc60ba-3025-461c-b001-8ccb72f121c5|9ca25ac8-83da-4366-87da-8a6d84ca426a",
-          ""
-        ],
-        [
-          "clearance|154077500|86877500|a3d37749-c1af-40fc-89e3-af3639180792|a3bbffab-5d87-4560-9ffd-115c1e8df432",
-          ""
-        ],
-        [
-          "clearance|154077500|87377500|ef83a4a4-bd9f-482c-b5af-89c841df3cb9|a3d37749-c1af-40fc-89e3-af3639180792",
-          ""
-        ],
-        [
-          "clearance|154077500|87877500|62f16879-405e-4c3f-a876-ee8a2b2d16b6|ef83a4a4-bd9f-482c-b5af-89c841df3cb9",
-          ""
-        ],
-        [
-          "clearance|154077500|88377500|41f7c28b-f655-48b5-82fd-6e06ee816bd0|62f16879-405e-4c3f-a876-ee8a2b2d16b6",
-          ""
-        ],
-        [
-          "hole_clearance|158950000|78755000|86216153-af01-4a7d-b1b4-00ddf6923a29|2115f26b-7a63-4369-b1dc-ecf9df193c89",
-          ""
-        ],
-        [
-          "hole_clearance|158950000|78755000|ea3ca493-c46e-4816-859f-244c4aeb92d4|2115f26b-7a63-4369-b1dc-ecf9df193c89",
-          ""
-        ],
-        [
-          "hole_clearance|165050000|78755000|430d901c-cc2e-49ee-89eb-9d751af1985a|a5bb9f32-ef1d-4d91-9387-97d8699b4c5c",
-          ""
-        ],
-        [
-          "hole_clearance|165050000|78755000|a8260905-6169-418a-adae-7e0e576a111c|a5bb9f32-ef1d-4d91-9387-97d8699b4c5c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|177960000|83790000|d293eab5-0441-48aa-9ad8-32405d9c3210|8d4cda2e-a532-472b-b3b6-dfcfef4d5049",
-          ""
-        ],
-        [
-          "silk_edge_clearance|177960000|86350000|d293eab5-0441-48aa-9ad8-32405d9c3210|b115931d-1752-4118-9f54-72755e9df5cc",
-          ""
-        ],
-        [
-          "silk_edge_clearance|177960000|91350000|d293eab5-0441-48aa-9ad8-32405d9c3210|b0ebbe6a-eaed-4567-9401-a4f23388a848",
-          ""
-        ],
-        [
-          "silk_edge_clearance|177960000|92150000|d293eab5-0441-48aa-9ad8-32405d9c3210|ca4bd6db-b58c-4387-a09e-ff8688957ec4",
-          ""
-        ],
-        [
-          "silk_edge_clearance|177960000|92650000|d293eab5-0441-48aa-9ad8-32405d9c3210|2edaad16-0c26-4482-944f-366f15cc8358",
-          ""
-        ],
-        [
-          "silk_edge_clearance|177960000|93910000|d293eab5-0441-48aa-9ad8-32405d9c3210|f5eb460d-b84c-4fb9-941b-27c405ec0eb3",
+          "hole_clearance|165050000|78755000|a5bb9f32-ef1d-4d91-9387-97d8699b4c5c|a8260905-6169-418a-adae-7e0e576a111c",
           ""
         ]
       ],

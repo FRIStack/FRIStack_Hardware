@@ -5698,6 +5698,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_DIP_x01"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x01"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x01_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x01_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x01_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS62840DLCR:TPS62840DLCR"
 			(pin_names
 				(offset 1.016)
@@ -6652,16 +6810,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "Nejaku ochrannu diodku na USB\n"
-		(exclude_from_sim no)
-		(at 169.672 80.772 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "46c294d8-4243-484e-a911-c599090c0bba")
 	)
 	(junction
 		(at 370.84 33.02)
@@ -7789,6 +7937,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 207.01) (xy 344.17 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bab88af-5cde-467a-9c97-b62f2810afa3")
+	)
+	(wire
+		(pts
 			(xy 33.02 256.54) (xy 33.02 261.62)
 		)
 		(stroke
@@ -8289,6 +8447,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 33.02) (xy 270.51 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fc2388-bae0-43a8-98aa-5c1f2b9c94ad")
+	)
+	(wire
+		(pts
 			(xy 128.27 38.1) (xy 128.27 30.48)
 		)
 		(stroke
@@ -8599,16 +8767,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 30.48) (xy 281.94 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61957135-61a7-4047-a1ae-d6c2cab478a0")
-	)
-	(wire
-		(pts
 			(xy 256.54 151.13) (xy 259.08 151.13)
 		)
 		(stroke
@@ -8766,16 +8924,6 @@
 			(type default)
 		)
 		(uuid "6a785fe1-f8e5-4067-9cc3-1a2153fc520f")
-	)
-	(wire
-		(pts
-			(xy 275.59 34.29) (xy 281.94 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aec1e69-cf76-4b4a-8351-dd3152c01e2b")
 	)
 	(wire
 		(pts
@@ -9129,6 +9277,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 207.01) (xy 363.22 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854f98b3-82f0-41eb-98b6-b69ea2da0630")
+	)
+	(wire
+		(pts
 			(xy 45.72 135.89) (xy 45.72 130.81)
 		)
 		(stroke
@@ -9189,16 +9347,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 209.55) (xy 339.09 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0d1886-1dbd-480b-826e-319f6e620ec4")
-	)
-	(wire
-		(pts
 			(xy 170.18 121.92) (xy 186.69 121.92)
 		)
 		(stroke
@@ -9206,16 +9354,6 @@
 			(type default)
 		)
 		(uuid "8afffb92-8ab2-4543-9c73-09ae0b7be86c")
-	)
-	(wire
-		(pts
-			(xy 275.59 36.83) (xy 278.13 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c522ea2-7af6-4102-83ef-dee1d9fb6069")
 	)
 	(wire
 		(pts
@@ -9326,16 +9464,6 @@
 			(type default)
 		)
 		(uuid "930feed0-e5a4-4ee1-b9ac-cfd218de3441")
-	)
-	(wire
-		(pts
-			(xy 332.74 207.01) (xy 339.09 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93287f27-fba5-4c39-9968-5680d62627cb")
 	)
 	(wire
 		(pts
@@ -9496,16 +9624,6 @@
 			(type default)
 		)
 		(uuid "9d63895b-6670-4f66-8b51-c26d5e836855")
-	)
-	(wire
-		(pts
-			(xy 332.74 209.55) (xy 339.09 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d80b599-3900-41ff-b6ba-80ebffab512f")
 	)
 	(wire
 		(pts
@@ -9766,6 +9884,16 @@
 			(type default)
 		)
 		(uuid "aca65ca4-80a7-449b-8b40-a3ef6aa44b96")
+	)
+	(wire
+		(pts
+			(xy 267.97 26.67) (xy 267.97 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb8bdba-83be-4d7b-8da8-a8d87e77a88e")
 	)
 	(wire
 		(pts
@@ -11509,7 +11637,7 @@
 	)
 	(global_label "SEL"
 		(shape input)
-		(at 278.13 36.83 0)
+		(at 285.75 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11519,7 +11647,7 @@
 		)
 		(uuid "51e1b3d8-82c6-4d9c-b124-72e5bdb3d972")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.5018 36.83 0)
+			(at 292.1218 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,22 +13111,22 @@
 	)
 	(global_label "CAN_L"
 		(shape output)
-		(at 339.09 213.36 270)
+		(at 363.22 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fcc25249-5713-44b3-aa7c-635a85a0fb2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.09 222.03 90)
+			(at 371.89 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13951,74 +14079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 327.66 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b79ac23-3cb5-4a9c-9dbd-379771058cb8")
-		(property "Reference" "J5"
-			(at 328.295 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 328.295 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 327.66 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 327.66 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 327.66 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91f8d5b0-1d8f-418e-88e1-8fe151632d0b")
-		)
-		(pin "2"
-			(uuid "afb4bce6-a075-40d2-b14c-a6b53dd36ed2")
-		)
-		(instances
-			(project ""
-				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 328.93 101.6 0)
 		(unit 1)
@@ -14563,7 +14623,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 281.94 30.48 0)
+		(at 267.97 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14572,7 +14632,7 @@
 		(fields_autoplaced yes)
 		(uuid "18463fba-8aaf-4c14-8cca-36e3da20f84b")
 		(property "Reference" "#PWR058"
-			(at 281.94 34.29 0)
+			(at 267.97 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14581,7 +14641,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 281.94 25.4 0)
+			(at 267.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14589,7 +14649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 30.48 0)
+			(at 267.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14598,7 +14658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 30.48 0)
+			(at 267.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14607,7 +14667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 281.94 30.48 0)
+			(at 267.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22745,74 +22805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 270.51 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc638bca-66be-4a5c-a1da-a8444ddd85c1")
-		(property "Reference" "J4"
-			(at 271.145 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 271.145 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 270.51 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 270.51 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb448912-b97a-43b5-b1b6-df48c894e3f5")
-		)
-		(pin "2"
-			(uuid "162048e6-230b-465c-9228-e6f411c7ad42")
-		)
-		(instances
-			(project "FRISTACK_CORE"
-				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 115.57 118.11 0)
 		(unit 1)
@@ -23670,6 +23662,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DIP_x01")
+		(at 351.79 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e12182bd-1fa4-4cab-aa28-ec99540c8c5e")
+		(property "Reference" "SW1"
+			(at 351.79 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x01"
+			(at 351.79 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile"
+			(at 351.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 351.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "848b6c76-f1f5-4dd3-80ea-8eecfc000e35")
+		)
+		(pin "1"
+			(uuid "51005f11-a48a-4923-ba36-a2383cc114b6")
+		)
+		(instances
+			(project ""
+				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 101.6 180)
 		(unit 1)
@@ -24001,6 +24061,74 @@
 			(project "FRISTACK_CORE"
 				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DIP_x01")
+		(at 278.13 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e75574c1-19a7-4405-876f-13812a784874")
+		(property "Reference" "SW2"
+			(at 278.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x01"
+			(at 278.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile"
+			(at 278.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 278.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "362b6b46-31b0-40cd-ae28-814fbd6a4b12")
+		)
+		(pin "1"
+			(uuid "dd0967ce-7159-4d38-b127-0308020ae2e0")
+		)
+		(instances
+			(project "FRISTACK_CORE"
+				(path "/f8946b36-5f78-48c5-900d-ea400f0fdec4"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
