@@ -17662,7 +17662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C13564"
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -18704,7 +18704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 359.1052 43.18 0)
 			(effects
 				(font
@@ -20449,7 +20449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "15k"
 			(at 106.68 121.9199 0)
 			(effects
 				(font
@@ -21070,7 +21070,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 384.81 129.54 0)
 			(effects
 				(font
@@ -22404,7 +22404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "25k"
 			(at 99.06 129.5399 0)
 			(effects
 				(font
@@ -24699,7 +24699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DFE201612E"
+		(property "Datasheet" "DFE201612E-2R2M=P2"
 			(at 231.14 33.02 0)
 			(effects
 				(font

@@ -4121,6 +4121,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 87.63) (xy 38.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d972f78-7c5c-4ee7-9066-ded6277e118f")
+	)
+	(wire
+		(pts
 			(xy 346.71 229.87) (xy 350.52 229.87)
 		)
 		(stroke
@@ -5971,6 +5981,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 90.17) (xy 38.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bf44b3-d535-424b-bd54-c78c47b04700")
+	)
+	(wire
+		(pts
 			(xy 364.49 34.29) (xy 368.3 34.29)
 		)
 		(stroke
@@ -6028,6 +6048,28 @@
 			(type default)
 		)
 		(uuid "fdfbb4c1-3b25-4808-9d40-757b08a77ad9")
+	)
+	(global_label "EN"
+		(shape input)
+		(at 34.29 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "010ac83b-a6a0-45c8-a83d-9362acd082e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.8253 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART0_RX"
 		(shape input)
@@ -6333,6 +6375,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO09"
+		(shape input)
+		(at 34.29 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36edf597-8e41-4461-9b2b-e90bd854bdb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.4105 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12426,6 +12490,76 @@
 			(project "FRISTACK_SENSOR_NODE"
 				(path "/93ea00fb-97ce-495e-ab13-c4af9b79c25e"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 43.18 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2d5db15-8418-4ca9-ba9a-a64abf4b48c5")
+		(property "Reference" "J4"
+			(at 44.45 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JTAG_PIN_HEADER"
+			(at 44.45 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbd47410-be06-426d-b70a-cb43c98b0be6")
+		)
+		(pin "2"
+			(uuid "97a0538d-aee2-4a3f-9e14-c3ceea92aa4d")
+		)
+		(instances
+			(project "FRISTACK_SENSOR_NODE"
+				(path "/93ea00fb-97ce-495e-ab13-c4af9b79c25e"
+					(reference "J4")
 					(unit 1)
 				)
 			)

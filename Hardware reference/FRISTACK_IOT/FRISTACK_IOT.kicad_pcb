@@ -103,7 +103,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -27328,8 +27327,9 @@
 	)
 	(group ""
 		(uuid "df3d67b9-886d-46c5-8eaa-6a4256c70d20")
-		(members "3789e339-e9c9-4e79-a9df-e25163e32493" "add33712-96b0-4ba9-af62-9d8818c0637e"
-			"f40a42e0-e735-48af-996a-1d448807e07d"
+		(members "11794981-a0ae-445a-94c4-95f9463762a3" "3789e339-e9c9-4e79-a9df-e25163e32493"
+			"a379bb5b-4310-44f2-a55d-c68dd8a8c645" "add33712-96b0-4ba9-af62-9d8818c0637e"
+			"cd9b3a3b-1e87-4f69-ba78-06a521d4dd4d" "f40a42e0-e735-48af-996a-1d448807e07d"
 		)
 	)
 	(group ""
